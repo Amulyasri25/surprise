@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <center>
+        <h1>😇<em>Key to Your surprise</em>😝</h1>
+    </center>
+    <form>
+        <div class="question">
+            <p><strong>Q1</strong>: The more u take ,the more u leave behind.What am I?</p>
+            <label>
+                <input type="radio" name="one" value="a">Time</label>
+            <label>
+                <input type="radio" name="one" value="b">Books</label>
+            <label>
+                <input type="radio" name="one" value="c">Footsteps</label>
+        </div>
+        <div class="question">
+            <p><strong>Q2</strong>: Flat as a leaf,round as a ring,has two eyes,Can't see a thing.Whoh am I? </p>
+            <label>
+                <input type="radio" name="two" value="a">Socket</label>
+            <label>
+                <input type="radio" name="two" value="b">Button</label>
+            <label>
+                <input type="radio" name="two" value="c">Spectacles</label>
+        </div>
+        <div class="question">
+            <p><strong>Q3</strong>: If you drop me i'm sure to crack.Give me a smile and I will always smile
+                back.Who am
+                I?</p>
+            <label>
+                <input type="radio" name="three" value="a">Mirror</label>
+            <label>
+                <input type="radio" name="three" value="b">Water</label>
+            <label>
+                <input type="radio" name="three" value="c">Glass</label>
+        </div>
+        <div class="question">
+            <p><strong>Q4</strong>: What was the song on dancing for which we were caught
+                embarassingly..#oneOfOurBestMoment?
+            </p>
+            <label>
+                <input type="radio" name="f" value="a">Proper patola</label>
+            <label>
+                <input type="radio" name="f" value="b">I don't care</label>
+            <label>
+                <input type="radio" name="f" value="c">Tareefan</label>
+        </div>
+        <div class="question">
+            <p><strong>Q5</strong>: Our one bad decision that anyways lead to happiness and joy at the last and was
+                fullfilling was taken on
+                ..?
+            </p>
+            <label>
+                <input type="radio" name="e" value="a">25-07-2019</label>
+            <label>
+                <input type="radio" name="e" value="b">29-02-2020</label>
+            <label>
+                <input type="radio" name="e" value="c">05-01-2020</label>
+        </div><br><br>
+        <center>
+            <input type="button" onclick="m()" value="submit" class="button" /></center>
+    </form>
+
+    <script>
+        function m() {
+            var x = document.querySelector(
+                'input[name="one"]:checked');
+
+            var y = document.querySelector(
+                'input[name="two"]:checked');
+            var z = document.querySelector(
+                'input[name="three"]:checked');
+            var a = document.querySelector(
+                'input[name="f"]:checked');
+            var b = document.querySelector(
+                'input[name="e"]:checked');
+
+            if (b != null && b.value === "b" && x != null && x.value === "c" && y != null && y.value === "b" && z != null && z.value === "a" && a != null && a.value === "c")
+                window.open("pic.html", "");
+            else
+                alert("Wrong answer ,try again");
+        }
+    </script>
+</body>
+
+</html>

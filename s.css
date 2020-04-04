@@ -1,0 +1,96 @@
+.carousel-item
+{
+ padding:20% 100%;
+}
+body{
+    font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+  
+    font-family: "Montserrant-Bold";  
+    font-size: 20px;
+}
+p{
+    color:white;
+    margin: 100em 0;
+}
+/*containers*/
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.download-btn{
+    margin:5% 3% 5% 0%;
+}
+/*features*/
+#features{
+    padding:7% 15% ;
+    position: relative;
+}
+/*testimonial*/
+   .testimonial-text{
+       font-size: 3rem;
+       line-height: 1.5;
+   }
+   .testimonial-image{
+       width:20%;
+       margin:3px;
+       height:50%;
+       }
+
+   .carousel-item
+   {
+    padding:7% 15%;
+   }
+
+   .colored-section{
+
+    background-color:#ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em 2em;
+   }
+   .colored-section2{
+
+    background-color:#cf56a1;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em 2em;
+   }
+   .btn{
+       width:30%;
+       height:50%;
+   }
+   .y{
+    background-color:#fb3569;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em 2em;
+   }
+   .b{
+    background-color:#46b3e6;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em 2em;
+   }
+   #e{
+       width:40%;
+   }
+   #v{
+       width:70%;
+   }
+   #o,#out{
+       width:30%;
+   }
+   #p{
+       width:50%;
+   }
+   #r{
+       width:27%;
+   }
+   #w{
+       width:90%;
+   }
+#b{
+    width:80%;
+}
